@@ -135,7 +135,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup=main_keyboard()
     )
 
-app = ApplicationBuilder().token("8736961543:AAHuNijHyQtg0qM993H1GDjK6tHWPoUGZao").build()
+app = ApplicationBuilder().token("8752062059:AAHy-8U7sNiI348gQM_Cl0DsUlLn4fWpuFc").build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("help", help))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
